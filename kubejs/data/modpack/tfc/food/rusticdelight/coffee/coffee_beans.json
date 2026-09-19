@@ -1,0 +1,8 @@
+{
+    "ingredient": {
+        "item": "rusticdelight:coffee_beans"
+    },
+    "hunger": 2,
+    "saturation": 4,
+    "decay_modifier": 0.5
+}

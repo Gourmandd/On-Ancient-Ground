@@ -22,6 +22,17 @@
                     "type": "tfc:not_rotten"
                 }
             ]
+        },
+        {
+            "type": "tfc:and",
+            "children":[
+                {
+                    "tag": "c:savoury_spices"
+                },
+                {
+                    "type": "tfc:not_rotten"
+                }
+            ]
         }
     ],
     "fluid_ingredient": {

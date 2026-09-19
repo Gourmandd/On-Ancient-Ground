@@ -34,7 +34,7 @@
       "type": "tfc:and",
       "children": [
         {
-          "tag": "c:foods/grain"
+          "tag": "c:foods/flour"
         },
         {
           "type": "tfc:not_rotten"

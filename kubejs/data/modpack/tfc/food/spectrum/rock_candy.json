@@ -1,0 +1,35 @@
+{
+    "ingredient": [
+        {
+            "item": "spectrum:hot_chocolate"
+        },
+        {
+            "item": "spectrum:azalea_tea"
+        },
+        {
+            "item": "spectrum:demon_tea"
+        },
+        {
+            "item": "spectrum:glistering_jelly_tea"
+        },
+        {
+            "item": "spectrum:golden_bristle_tea"
+        },
+        {
+            "item": "spectrum:karak_chai"
+        },
+        {
+            "item": "spectrum:restoration_tea"
+        }
+    ],
+    "category": "other",
+    "hunger": 0,
+    "saturation": 0,
+    "water": 0,
+    "decay_modifier": 0,
+    "grain": 0,
+    "dairy": 0,
+    "vegetables": 0,
+    "fruit": 0,
+    "protein": 0
+}

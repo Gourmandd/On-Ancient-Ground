@@ -6,10 +6,10 @@
     "hunger": 4,
     "saturation": 1,
     "water": 0,
-    "decay_modifier": 0.75,
+    "decay_modifier": 0.15,
     "grain": 0,
     "dairy": 1,
     "vegetables": 0,
     "fruit": 0,
-    "protein": 0.3
+    "protein": 0.1
 }
