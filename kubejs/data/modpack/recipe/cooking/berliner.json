@@ -1,0 +1,82 @@
+{
+  "type": "modpack:gated_cooking_pot",
+  "required_advancement": "spectrum:hidden/collect_cookbooks/melochites_cookbook_vol_2",
+  "cookingtime": 600,
+  "experience": 5.0,
+  "fluid": {
+    "tag": "c:cooking_oils"
+  },
+  "fluid_amount": 250,
+  "ingredients": [
+    {
+      "type": "tfc:and",
+      "children": [
+        {
+          "item": "spectrum:fresh_chocolate"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    },
+    {
+      "type": "tfc:and",
+      "children": [
+        {
+          "item": "spectrum:fresh_chocolate"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    },
+    {
+      "type": "tfc:and",
+      "children": [
+        {
+          "tag": "c:foods/grain"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    },
+    {
+      "type": "tfc:and",
+      "children": [
+        {
+          "item": "spectrum:clotted_cream"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    },
+    {
+      "type": "tfc:and",
+      "children": [
+        {
+          "item": "spectrum:clotted_cream"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    },
+    {
+      "type": "tfc:and",
+      "children": [
+        {
+          "item": "spectrum:cheong"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "spectrum:berliner"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "type": "spectrum:gated_crafting_shaped",
+  "pattern": [
+    "J J",
+    "EME",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "type": "tfc:and",
+      "children": [
+        {
+          "tag": "c:foods/flour"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    },
+    "J": {
+      "type": "tfc:and",
+      "children": [
+        {
+          "item": "spectrum:jaramel"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    },
+    "E": {
+      "type": "tfc:and",
+      "children": [
+        {
+          "tag": "c:eggs"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    },
+    "M": {
+        "type": "tfc:and",
+        "children": [
+            {
+                "item": "spectrum:clotted_cream"
+            },
+            {
+                "type": "tfc:not_rotten"
+            }
+        ]
+    }
+  },
+  "result": {
+    "id": "modpack:food/spectrum/raw_jaramel_tart",
+    "count": 1
+  },
+  "required_advancement": "spectrum:unlocks/food/tarts"
+}

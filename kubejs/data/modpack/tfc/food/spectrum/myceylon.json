@@ -6,7 +6,7 @@
     "hunger": 1,
     "saturation": 0,
     "water": 0,
-    "decay_modifier": 1,
+    "decay_modifier": 0.05,
     "grain": 0,
     "dairy": 0,
     "vegetables": 0.3,

@@ -1,0 +1,27 @@
+{
+    "type": "firmalife:oven",
+    "duration": 1000,
+    "ingredient": {
+        "type": "tfc:and",
+        "children": [
+            {
+                "item": "modpack:food/spectrum/raw_triple_meat_pot_pie"
+            },
+            {
+                "type": "tfc:not_rotten"
+            }
+        ]
+    },
+    "result": {
+        "modifiers": [
+            {
+                "type": "firmalife:copy_dynamic_food"
+            }
+        ],
+        "stack": {
+            "count": 1,
+            "id": "spectrum:triple_meat_pot_pie"
+        }
+    },
+    "temperature": 400.0
+}

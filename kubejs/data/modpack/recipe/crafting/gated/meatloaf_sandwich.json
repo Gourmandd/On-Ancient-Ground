@@ -1,0 +1,44 @@
+{
+  "type": "spectrum:gated_crafting_shapeless",
+  "group": "compacting",
+  "ingredients": [
+    {
+        "type": "tfc:and",
+        "children": [
+            {
+            "item": "spectrum:meatloaf"
+            },
+            {
+            "type": "tfc:not_rotten"
+            }
+        ]
+    },
+    {
+        "type": "tfc:and",
+        "children": [
+            {
+            "tag": "c:foods/bread"
+            },
+            {
+            "type": "tfc:not_rotten"
+            }
+        ]
+    },
+    {
+        "type": "tfc:and",
+        "children": [
+            {
+            "item": "spectrum:clotted_cream"
+            },
+            {
+            "type": "tfc:not_rotten"
+            }
+        ]
+    }
+  ],
+  "result": {
+    "id": "spectrum:meatloaf_sandwich",
+    "count": 4
+  },
+  "required_advancement": "spectrum:hidden/collect_cookbooks/melochites_cookbook_vol_1"
+}

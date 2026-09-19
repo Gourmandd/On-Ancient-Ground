@@ -1,0 +1,51 @@
+{
+  "type": "spectrum:gated_crafting_shaped",
+  "pattern": [
+    "SCS",
+    "AMA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "type": "tfc:and",
+      "children": [
+        {
+          "tag": "c:foods/flour"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    },
+    "C": {
+        "item": "spectrum:four_leaf_clover"
+    },
+    "M": {
+        "type": "tfc:and",
+        "children": [
+            {
+                "item": "spectrum:clotted_cream"
+            },
+            {
+                "type": "tfc:not_rotten"
+            }
+        ]
+    },
+    "S": {
+      "type": "tfc:and",
+      "children": [
+        {
+          "tag": "tfc:foods/sweeteners"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    }
+  },
+  "result": {
+    "id": "modpack:food/spectrum/raw_lucky_roll",
+    "count": 2
+  },
+  "required_advancement": "spectrum:unlocks/food/lucky_roll"
+}

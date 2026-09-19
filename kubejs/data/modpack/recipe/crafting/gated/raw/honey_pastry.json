@@ -1,0 +1,59 @@
+{
+  "type": "spectrum:gated_crafting_shaped",
+  "pattern": [
+    " H ",
+    "SES",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "type": "tfc:and",
+      "children": [
+        {
+          "tag": "c:foods/flour"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    },
+    "H": {
+      "type": "tfc:and",
+      "children": [
+        {
+          "item": "firmalife:food/raw_honey"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    },
+    "E": {
+      "type": "tfc:and",
+      "children": [
+        {
+          "tag": "c:eggs"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    },
+    "S": {
+      "type": "tfc:and",
+      "children": [
+        {
+          "tag": "tfc:foods/sweeteners"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    }
+  },
+  "result": {
+    "id": "modpack:food/spectrum/raw_honey_pastry",
+    "count": 1
+  },
+  "required_advancement": "spectrum:collect_amaranth_bushel"
+}

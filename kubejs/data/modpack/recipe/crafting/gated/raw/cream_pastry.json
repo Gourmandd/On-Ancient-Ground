@@ -1,0 +1,59 @@
+{
+  "type": "spectrum:gated_crafting_shaped",
+  "pattern": [
+    "ESE",
+    "CCC",
+    "EXE"
+  ],
+  "key": {
+    "S": {
+      "type": "tfc:and",
+      "children": [
+        {
+          "tag": "tfc:foods/sweeteners"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    },
+    "E": {
+      "type": "tfc:and",
+      "children": [
+        {
+          "tag": "c:foods/flour"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    },
+    "C": {
+      "type": "tfc:and",
+      "children": [
+        {
+          "item": "spectrum:clotted_cream"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    },
+    "X": {
+      "type": "tfc:and",
+      "children": [
+        {
+          "item": "minecraft:egg"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    }
+  },
+  "result": {
+    "id": "modpack:food/spectrum/raw_cream_pastry",
+    "count": 2
+  },
+  "required_advancement": "spectrum:hidden/collect_cookbooks/melochites_cookbook_vol_2"
+}

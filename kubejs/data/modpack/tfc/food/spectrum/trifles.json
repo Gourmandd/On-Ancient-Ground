@@ -11,12 +11,12 @@
         }
     ],
     "category": "other",
-    "hunger": 6,
+    "hunger": 8,
     "saturation": 4,
     "water": 0,
     "decay_modifier": 1,
-    "grain": 2,
-    "dairy": 0,
+    "grain": 6,
+    "dairy": 0.1,
     "vegetables": 0,
     "fruit": 0.5,
     "protein": 0

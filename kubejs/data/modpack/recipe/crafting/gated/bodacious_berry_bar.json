@@ -1,0 +1,74 @@
+{
+  "type": "spectrum:gated_crafting_shaped",
+  "group": "compacting",
+  "pattern": [
+    "CHC",
+    "BLB",
+    "CMC"
+  ],
+  "key": {
+    "L": {
+        "item": "spectrum:infused_beverage",
+        "recipeViewNbt": "{Variant: \"berry_liquor\", Color: 16729462 }",
+        "matchbook": {
+            "mode": "AND",
+            "matches": [
+                {
+                    "type": "string",
+                    "key": "Variant",
+                    "target": "berry_liquor"
+                }
+            ]
+        }
+    },
+    "H": {
+      "type": "tfc:and",
+      "children": [
+        {
+          "tag": "tfc:foods/sweeteners"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    },
+    "B": {
+      "type": "tfc:and",
+      "children": [
+        {
+          "tag": "c:foods/fruit/berries"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    },
+    "M": {
+      "type": "tfc:and",
+      "children": [
+        {
+          "item": "spectrum:clotted_cream"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    },
+    "C": {
+      "type": "tfc:and",
+      "children": [
+        {
+          "item": "spectrum:fresh_chocolate"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    }
+  },
+  "result": {
+    "id": "spectrum:bodacious_berry_bar",
+    "count": 4
+  },
+  "required_advancement": "spectrum:unlocks/food/bodacious_berry_bar"
+}

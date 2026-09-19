@@ -7,7 +7,7 @@
     "saturation": 6,
     "water": 5,
     "decay_modifier": 2,
-    "grain": 2,
+    "grain": 1.5,
     "dairy": 1,
     "vegetables": 0.3,
     "fruit": 0,

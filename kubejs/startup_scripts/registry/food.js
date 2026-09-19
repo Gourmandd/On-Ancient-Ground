@@ -26,4 +26,26 @@ StartupEvents.registry("item", event => {
     event.create(`${id}:food/honey_cake_base`).displayName("Honey Cake Base").food(0, 0)
     event.create(`${id}:food/chocolate_cake_base`).displayName("Chocolate Cake Base").food(0, 0)
     event.create(`${id}:food/cake_base`).displayName("Cake Base").food(0, 0)
+
+    // raw spectrum foods
+    event.create(`${id}:food/spectrum/raw_jaramel_trifle`).displayName("Raw Jaramel Trifle").food(0, 0)
+    event.create(`${id}:food/spectrum/raw_salted_jaramel_trifle`).displayName("Raw Salted Jaramel Trifle").food(0, 0)
+    event.create(`${id}:food/spectrum/raw_demon_trifle`).displayName("Raw Demon Trifle").food(0, 0)
+    event.create(`${id}:food/spectrum/raw_monster_trifle`).displayName("Raw Monster Trifle").food(0, 0)
+
+    event.create(`${id}:food/spectrum/raw_scone`).displayName("Raw Scone").food(0, 0)
+    event.create(`${id}:food/spectrum/raw_lucky_roll`).displayName("Raw Lucky Roll").food(0, 0)
+    event.create(`${id}:food/spectrum/raw_honey_pastry`).displayName("Raw Honey Pastry").food(0, 0)
+    event.create(`${id}:food/spectrum/raw_cream_pastry`).displayName("Raw Cream Pastry").food(0, 0)
+    event.create(`${id}:food/spectrum/raw_triple_meat_pot_pie`).displayName("Raw Triple Meat Pot Pie").food(0, 0)
+    event.create(`${id}:food/spectrum/raw_rabbit_cream_pie`).displayName("Raw Rabbit Cream Pie").food(0, 0)
+    event.create(`${id}:food/spectrum/raw_myceylon_pumpkin_pie`).displayName("Raw Myceylon Pumpkin Pie").food(0, 0)
+    event.create(`${id}:food/spectrum/raw_myceylon_apple_pie`).displayName("Raw Myceylon Apple Pie").food(0, 0)
+
+    event.create(`${id}:food/spectrum/raw_jaramel_tart`).displayName("Raw Jaramel Tart").food(0, 0)
+    event.create(`${id}:food/spectrum/raw_salted_jaramel_tart`).displayName("Raw Salted Jaramel Tart").food(0, 0)
+    event.create(`${id}:food/spectrum/raw_ashen_tart`).displayName("Raw Ashen Tart").food(0, 0)
+    event.create(`${id}:food/spectrum/raw_weeping_tart`).displayName("Raw Weeping Tart").food(0, 0)
+    event.create(`${id}:food/spectrum/raw_whispy_tart`).displayName("Raw Whispy Tart").food(0, 0)
+    event.create(`${id}:food/spectrum/raw_puff_tart`).displayName("Raw Puff Tart").food(0, 0)
 })

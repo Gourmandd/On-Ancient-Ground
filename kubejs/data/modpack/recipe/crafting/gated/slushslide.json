@@ -1,0 +1,65 @@
+{
+  "type": "spectrum:gated_crafting_shapeless",
+  "ingredients": [
+      {
+        "type": "tfc:and",
+        "children": [
+          {
+            "item": "spectrum:fresh_chocolate"
+          },
+          {
+            "type": "tfc:not_rotten"
+          }
+        ]
+      },
+      {
+        "type": "tfc:and",
+        "children": [
+          {
+            "item": "spectrum:myceylon"
+          },
+          {
+            "type": "tfc:not_rotten"
+          }
+        ]
+      },
+      {
+        "type": "tfc:and",
+        "children": [
+          {
+            "item": "spectrum:clotted_cream"
+          },
+          {
+            "type": "tfc:not_rotten"
+          }
+        ]
+      },
+      {
+        "item": "spectrum:infused_beverage",
+        "preview_components": {
+          "spectrum:infused_beverage": {
+            "variant": "sawblade_holly_liquor",
+            "color": 13723654
+          }
+        },
+        "predicates": {
+          "spectrum:infused_beverage": [
+            {
+              "variants": "sawblade_holly_liquor"
+            }
+          ]
+        }
+      },
+      {
+        "item": "minecraft:glass_bottle"
+      },
+      {
+        "item": "minecraft:glass_bottle"
+      }
+  ],
+  "result": {
+    "id": "spectrum:slushslide",
+    "count": 2
+  },
+  "required_advancement": "spectrum:hidden/collect_cookbooks/melochites_cookbook_vol_2"
+}

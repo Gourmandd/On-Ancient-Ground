@@ -1,0 +1,78 @@
+{
+  "type": "modpack:gated_cooking_pot",
+  "required_advancement": "spectrum:hidden/collect_cookbooks/imbrifer_cookbook",
+  "container": {
+    "count": 1,
+    "id": "minecraft:bowl"
+  },
+  "cookingtime": 600,
+  "experience": 5.0,
+  "fluid": {
+    "fluid": "minecraft:water"
+  },
+  "fluid_amount": 250,
+  "ingredients": [
+    {
+      "type": "tfc:and",
+      "children": [
+        {
+          "item": "spectrum:germinated_jade_vine_bulb"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    },
+    {
+      "type": "tfc:and",
+      "children": [
+        {
+          "item": "spectrum:jadeite_lotus_bulb"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    },
+    {
+      "type": "tfc:and",
+      "children": [
+        {
+          "item": "spectrum:nephrite_blossom_bulb"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    },
+    {
+      "item": "spectrum:frostbite_essence"
+    },
+    {
+      "type": "tfc:and",
+      "children": [
+        {
+          "item": "spectrum:moonstruck_nectar"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    },
+    {
+      "type": "tfc:and",
+      "children": [
+        {
+          "item": "spectrum:aqua_regia"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "spectrum:mellow_shallot_soup"
+  }
+}

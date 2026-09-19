@@ -1,0 +1,54 @@
+{
+  "type": "spectrum:gated_crafting_shapeless",
+  "ingredients": [
+      {
+        "type": "tfc:and",
+        "children": [
+          {
+            "tag": "c:foods/flour"
+          },
+          {
+            "type": "tfc:not_rotten"
+          }
+        ]
+      },
+      {
+        "type": "tfc:and",
+        "children": [
+          {
+            "item": "minecraft:egg"
+          },
+          {
+            "type": "tfc:not_rotten"
+          }
+        ]
+      },
+      {
+        "type": "tfc:and",
+        "children": [
+          {
+            "tag": "c:foods/fruit/berries"
+          },
+          {
+            "type": "tfc:not_rotten"
+          }
+        ]
+      },
+      {
+        "type": "tfc:and",
+        "children": [
+          {
+            "item": "spectrum:clotted_cream"
+          },
+          {
+            "type": "tfc:not_rotten"
+          }
+        ]
+      }
+  ],
+  "result": {
+    "id": "modpack:food/spectrum/raw_scone",
+    "count": 2
+  },
+  "required_advancement": "spectrum:collect_amaranth_bushel"
+}

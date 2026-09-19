@@ -3,11 +3,11 @@
         "item": "spectrum:myceylon_pumpkin_pie"
     },
     "category": "other",
-    "hunger": 6,
+    "hunger": 12,
     "saturation": 4,
     "water": 0,
     "decay_modifier": 1,
-    "grain": 2,
+    "grain": 4,
     "dairy": 1,
     "vegetables": 0.5,
     "fruit": 1,

@@ -3,13 +3,13 @@
         "item": "spectrum:ashen_tart"
     },
     "category": "other",
-    "hunger": 6,
+    "hunger": 10,
     "saturation": 10,
     "water": 0,
     "decay_modifier": 1,
     "grain": 2,
     "dairy": 1.5,
     "vegetables": 0,
-    "fruit": 1.5,
+    "fruit": 0.8,
     "protein": 1
 }

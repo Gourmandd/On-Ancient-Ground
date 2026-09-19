@@ -1,0 +1,55 @@
+{
+  "type": "spectrum:gated_crafting_shaped",
+  "reveal_secret_advancement": "spectrum:midgame/craft_salted_jaramel_trifle_or_tart",
+  "pattern": [
+    "JGJ",
+    "BEB",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "type": "tfc:and",
+      "children": [
+        {
+          "tag": "c:foods/flour"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    },
+    "J": {
+      "type": "tfc:and",
+      "children": [
+        {
+          "item": "spectrum:jaramel"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    },
+    "B": {
+        "item": "minecraft:bone_meal"
+    },
+    "E": {
+      "type": "tfc:and",
+      "children": [
+        {
+          "item": "minecraft:egg"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    },
+    "G": {
+        "item": "minecraft:ghast_tear"
+    }
+  },
+  "result": {
+    "id": "modpack:food/spectrum/raw_salted_jaramel_trifle",
+    "count": 1
+  },
+  "required_advancement": "spectrum:unlocks/food/trifles"
+}

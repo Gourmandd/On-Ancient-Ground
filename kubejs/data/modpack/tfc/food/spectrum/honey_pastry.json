@@ -3,8 +3,8 @@
         "item": "spectrum:honey_pastry"
     },
     "category": "other",
-    "hunger": 4,
-    "saturation": 2,
+    "hunger": 8,
+    "saturation": 10,
     "water": 0,
     "decay_modifier": 1,
     "grain": 2,

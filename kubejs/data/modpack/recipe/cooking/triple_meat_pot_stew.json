@@ -1,0 +1,79 @@
+{
+  "type": "modpack:gated_cooking_pot",
+  "required_advancement": "spectrum:unlocks/food/triple_meat_pot_stew",
+  "balance_factor": 0.001,
+  "container": {
+    "count": 1,
+    "id": "minecraft:bowl"
+  },
+  "cookingtime": 600,
+  "experience": 3.0,
+  "fluid": {
+    "fluid": "minecraft:water"
+  },
+  "fluid_amount": 1000,
+  "ingredients": [
+    {
+      "type": "tfc:and",
+      "children": [
+        {
+          "item": "spectrum:prickly_bayleaf"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    },
+    {
+      "type": "tfc:and",
+      "children": [
+        {
+          "item": "spectrum:clotted_cream"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    },
+    {
+        "tag": "spectrum:drinkable_spirits"
+    },
+    {
+      "type": "tfc:and",
+      "children": [
+        {
+          "tag": "c:foods/fowl"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    },
+    {
+      "type": "tfc:and",
+      "children": [
+        {
+          "tag": "c:foods/red_meat"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    },
+    {
+      "type": "tfc:and",
+      "children": [
+        {
+          "tag": "c:foods/fish"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    }
+  ],
+  "result": {
+    "count": 2,
+    "id": "spectrum:triple_meat_pot_stew"
+  }
+}

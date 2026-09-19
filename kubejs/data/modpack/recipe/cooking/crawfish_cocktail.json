@@ -1,0 +1,86 @@
+{
+  "type": "modpack:gated_cooking_pot",
+  "required_advancement": "spectrum:hidden/collect_cookbooks/imbrifer_cookbook",
+  "cookingtime": 600,
+  "experience": 5.0,
+  "fluid": {
+    "fluid": "minecraft:water"
+  },
+  "container": {
+    "count": 3,
+    "id": "minecraft:glass_bottle"
+  },
+  "fluid_amount": 250,
+  "ingredients": [
+    {
+      "type": "tfc:and",
+      "children": [
+        {
+          "item": "spectrum:crawfish"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    },
+    {
+      "type": "tfc:and",
+      "children": [
+        {
+          "item": "spectrum:crawfish"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    },
+    {
+      "type": "tfc:and",
+      "children": [
+        {
+          "item": "spectrum:crawfish"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    },
+    {
+      "type": "tfc:and",
+      "children": [
+        {
+          "item": "spectrum:myceylon"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    },
+    {
+      "type": "tfc:and",
+      "children": [
+        {
+          "item": "spectrum:incandescent_essence"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    },
+    {
+      "type": "tfc:and",
+      "children": [
+        {
+          "item": "spectrum:glass_peach"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    }
+  ],
+  "result": {
+    "count": 3,
+    "id": "spectrum:crawfish_cocktail"
+  }
+}

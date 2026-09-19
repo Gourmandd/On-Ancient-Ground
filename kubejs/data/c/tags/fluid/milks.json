@@ -2,7 +2,6 @@
     "replace": false,
     "values": [
         "firmalife:coconut_milk",
-        "firmalife:yak_milk",
-        "firmalife:goat_milk"
+        "#firmalife:milks"
     ]
 }

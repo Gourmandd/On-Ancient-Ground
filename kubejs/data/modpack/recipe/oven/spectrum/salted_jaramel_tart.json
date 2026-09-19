@@ -1,0 +1,20 @@
+{
+  "type": "firmalife:oven",
+  "duration": 1000,
+  "ingredient": {
+    "type": "tfc:and",
+    "children": [
+      {
+        "item": "modpack:food/spectrum/raw_salted_jaramel_tart"
+      },
+      {
+        "type": "tfc:not_rotten"
+      }
+    ]
+  },
+  "result": {
+        "count": 1,
+        "id": "spectrum:salted_jaramel_tart"
+  },
+  "temperature": 400.0
+}
