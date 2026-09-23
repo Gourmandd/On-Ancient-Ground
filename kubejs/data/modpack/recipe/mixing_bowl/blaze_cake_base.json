@@ -1,0 +1,28 @@
+{
+    "type": "firmalife:mixing_bowl",
+    "item_ingredients": [
+        {
+            "item": "minecraft:egg"
+        },
+        {
+            "item": "minecraft:sugar"
+        },
+        {
+            "item": "minecraft:sugar"
+        },
+        {
+            "item": "create:cinder_flour"
+        },
+        {
+            "item": "create:cinder_flour"
+        }
+    ],
+    "fluid_ingredients": {
+        "tag": "tfc:alcohols",
+        "amount": 1000
+    },
+    "result_item": {
+        "id": "create:blaze_cake_base",
+        "count": 1
+    }
+}
