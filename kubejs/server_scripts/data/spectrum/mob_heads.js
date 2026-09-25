@@ -46,7 +46,10 @@ LootJS.modifiers(event => {
         "tfc:mule": "spectrum:mule_head",
         "tfc:horse": "spectrum:horse_head",
         "tfc:cat": "spectrum:cat_head",
-        "tfc:dog": "spectrum:wolf_head"
+        "tfc:dog": "spectrum:wolf_head",
+        "tfc:bactrian_camel": "spectrum:camel_head",
+        "tfc:dromedary_camel": "spectrum:camel_head",
+        "tfc:armadillo": "spectrum:armadillo_head"
     }
 
 
