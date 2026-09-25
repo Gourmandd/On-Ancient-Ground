@@ -16,7 +16,7 @@ try {
         //event.remove({ type: "caupona:dolium", mod: "caupona" })
         //event.remove({ type: "caupona:frying" })
         //event.remove({ type: "caupona:bowl" })
-        event.remove({ mod: "caupona" })
+        event.remove({ mod: "caupona", not: { type: "minecraft:stonecutting" } })
         //event.remove({ type: "caupona:spice" })
         //event.remove({ mod: "quark", input: Ingredient.of(/.*glass.*/) })
         //event.remove({ mod: "simpleradio" })
@@ -36,12 +36,6 @@ try {
 
         event.replaceInput({ item: "minecraft:honeycomb", not: { output: "minecraft:honeycomb_block" } }, "minecraft:honeycomb", "firmalife:beeswax")
     })
-
-    BlockEvents.rightClicked("farmersdelight:rich_soil", event => {
-        event.cancel() //cant till the soil anymore. Used for growing mushrooms
-    })
-
-
 
     // This could lead to something like a recipe type or just an interaction, could be funny or not funny.
     // But it doesnt work since I dont know how to get the item to drop

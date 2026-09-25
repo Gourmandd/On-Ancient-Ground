@@ -11,6 +11,16 @@
         "minecraft:cherry_sapling",
         "minecraft:mangrove_propagule",
         "minecraft:azalea",
-        "minecraft:flowering_azalea"
+        "minecraft:flowering_azalea",
+        "architects_palette:twisted_sapling",
+        "caupona:walnut_sapling",
+        "caupona:fig_sapling",
+        "caupona:wolfberry_sapling",
+        "quark:ancient_sapling",
+        "quark:blue_blossom_sapling",
+        "quark:lavender_blossom_sapling",
+        "quark:orange_blossom_sapling",
+        "quark:yellow_blossom_sapling",
+        "quark:red_blossom_sapling"
     ]
 }

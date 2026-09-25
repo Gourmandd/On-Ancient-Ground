@@ -73,6 +73,8 @@ ServerEvents.recipes(event => {
         "spectrum:polished_shale_clay": "spectrum:shale_clay_bricks",
         "spectrum:exposed_polished_shale_clay": "spectrum:exposed_shale_clay_bricks",
         "spectrum:weathered_polished_shale_clay": "spectrum:weathered_shale_clay_bricks",
+        "quark:chiseled_calcite_bricks": "architects_palette:calcite_bricks",
+        "architects_palette:calcite_bricks": "architects_palette:chiseled_calcite",
 
         "minecraft:packed_ice": "architects_palette:polished_packed_ice",
         "architects_palette:nether_brass_block": "architects_palette:cut_nether_brass",

@@ -467,6 +467,8 @@ ServerEvents.recipes(event => {
         "architects_palette:withered_osseous_bricks",
         "architects_palette:wither_lamp",
         "architects_palette:sheet_metal_block",
+        "architects_palette:olivestone_bricks_from_tiles",
+        "architects_palette:olivestone_tiles_from_bricks",
 
         "artisanal:crafting/pumpkin_pie",
 
@@ -1532,6 +1534,7 @@ ServerEvents.recipes(event => {
         "quark:building/crafting/glass/framed_glass",
         "quark:tweaks/crafting/panes/dirty_glass_pane",
         "quark:tweaks/crafting/glass/mixed_dirty_glass",
+        "quark:building/crafting/sturdy_stone_uncompress",
 
         "quark:oddities/crafting/backpack",
         "quark:oddities/crafting/backpack_no_hide",

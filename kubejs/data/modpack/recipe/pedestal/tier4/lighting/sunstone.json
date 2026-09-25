@@ -20,7 +20,7 @@
             "item": "spectrum:paltaeria_gem"
         },
         "B": {
-            "item": "minecraft:basalt"
+            "item": "tfc:rock/bricks/basalt"
         },
         "S": {
             "item": "spectrum:shimmerstone_gem"
