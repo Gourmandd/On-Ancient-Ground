@@ -69,7 +69,8 @@ ServerEvents.recipes(event => {
         "quark:polished_calcite": "quark:calcite_bricks",
         "quark:calcite_bricks": "quark:chiseled_calcite_bricks",
         "minecraft:blackstone": "minecraft:polished_blackstone_bricks",
-        "minecraft:deepslate_bricks": "minecraft:deepslate_tiles",
+        "minecraft:deepslate_bricks": "minecraft:chiseled_deepslate",
+        "minecraft:chiseled_deepslate": "minecraft:deepslate_tiles",
         "spectrum:polished_shale_clay": "spectrum:shale_clay_bricks",
         "spectrum:exposed_polished_shale_clay": "spectrum:exposed_shale_clay_bricks",
         "spectrum:weathered_polished_shale_clay": "spectrum:weathered_shale_clay_bricks",
@@ -95,9 +96,7 @@ ServerEvents.recipes(event => {
         "architects_palette:abyssaline_bricks": "architects_palette:abyssaline_tiles",
 
         "architects_palette:hadaline": "architects_palette:hadaline_bricks",
-        "architects_palette:hadaline_bricks": "architects_palette:hadaline_tiles"
-
-
+        "architects_palette:hadaline_bricks": "architects_palette:hadaline_tiles",
     }
 
     Object.keys(BRICKS_MAKING).forEach(entry => {
@@ -107,6 +106,47 @@ ServerEvents.recipes(event => {
             outputOf(IO_TYPE.ITEM, BRICKS_MAKING[entry], 1),
             [inputOf(IO_TYPE.ITEM, entry, 1)],
             inputOf(IO_TYPE.ITEM_TAG, "c:tools/chisel", 1)
+        )
+            .addModifier(datagen.MODIFIERS.DAMAGE_CRAFTING_REMAINDER)
+            .id(id)
+            .generate()
+    })
+
+    const BRICK_CRACKING = {
+        "minecraft:stone_bricks": "minecraft:cracked_stone_bricks",
+        "minecraft:deepslate_bricks": "minecraft:cracked_deepslate_bricks",
+        "minecraft:deepslate_tiles": "minecraft:cracked_deepslate_tiles",
+        "minecraft:nether_bricks": "minecraft:cracked_nether_bricks",
+        "minecraft:polished_blackstone_bricks": "minecraft:cracked_polished_blackstone_bricks",
+        "minecraft:end_stone_bricks": "architects_palette:cracked_end_stone_bricks",
+        "architects_palette:olivestone_bricks": "architects_palette:cracked_olivestone_bricks",
+        "architects_palette:olivestone_tiles": "architects_palette:cracked_olivestone_tiles",
+        "architects_palette:algal_bricks": "architects_palette:cracked_algal_bricks",
+        "architects_palette:coal_ore_bricks": "architects_palette:cracked_coal_ore_bricks",
+        "architects_palette:iron_ore_bricks": "architects_palette:cracked_iron_ore_bricks",
+        "architects_palette:redstone_ore_bricks": "architects_palette:cracked_redstone_ore_bricks",
+        "architects_palette:lapis_ore_bricks": "architects_palette:cracked_lapis_ore_bricks",
+        "architects_palette:gold_ore_bricks": "architects_palette:cracked_gold_ore_bricks",
+        "architects_palette:emerald_ore_bricks": "architects_palette:cracked_emerald_ore_bricks",
+        "architects_palette:heavy_stone_bricks": "architects_palette:heavy_cracked_stone_bricks",
+        "architects_palette:heavy_end_stone_bricks": "architects_palette:heavy_cracked_end_stone_bricks",
+        "architects_palette:basalt_tiles": "architects_palette:cracked_basalt_tiles",
+        "architects_palette:moonshale_bricks": "architects_palette:cracked_moonshale_bricks",
+        "spectrum:basalt_bricks": "spectrum:cracked_basalt_bricks",
+        "spectrum:basalt_tiles": "spectrum:cracked_basalt_tiles",
+        "spectrum:calcite_bricks": "spectrum:cracked_calcite_bricks",
+        "spectrum:calcite_tiles": "spectrum:cracked_calcite_tiles",
+        "spectrum:blackslag_tiles": "spectrum:cracked_blackslag_tiles",
+        "spectrum:blackslag_bricks": "spectrum:cracked_blackslag_bricks"
+    }
+
+    Object.keys(BRICK_CRACKING).forEach(entry => {
+        let id = `modpack:crafting/shapeless/cracking/${Item.of(BRICK_CRACKING[entry]).getMod()}` + "/" + entry.split(":").pop()
+
+        datagen.advancedShapeless(
+            outputOf(IO_TYPE.ITEM, BRICK_CRACKING[entry], 1),
+            [inputOf(IO_TYPE.ITEM, entry, 1)],
+            inputOf(IO_TYPE.ITEM_TAG, "c:tools/hammer", 1)
         )
             .addModifier(datagen.MODIFIERS.DAMAGE_CRAFTING_REMAINDER)
             .id(id)

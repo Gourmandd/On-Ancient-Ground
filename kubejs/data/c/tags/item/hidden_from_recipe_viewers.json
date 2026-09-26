@@ -68,6 +68,8 @@
         "spectrum:preservation_chest",
         "spectrum:divination_heart",
         "exposure:interplanar_projector",
-        "tfc:calcite"
+        "tfc:calcite",
+        "#spectrum:bedrock_equipment",
+        "#spectrum:bedrock_armor"
     ]
 }

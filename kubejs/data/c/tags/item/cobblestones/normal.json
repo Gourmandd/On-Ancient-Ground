@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [],
+    "remove": [
+        "minecraft:cobblestone",
+        "minecraft:infested_cobblestone",
+        "minecraft:mossy_cobblestone",
+        "minecraft:deepslate_cobblestone"
+    ]
+}

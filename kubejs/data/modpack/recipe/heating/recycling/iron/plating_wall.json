@@ -1,0 +1,11 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+        "item": "architects_palette:plating_wall"
+    },
+    "result_fluid": {
+        "id": "tfc:metal/cast_iron",
+        "amount": 25
+    },
+    "temperature": 1535
+}

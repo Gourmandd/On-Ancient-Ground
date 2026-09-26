@@ -5,6 +5,9 @@
         "item": "minecraft:nether_bricks"
     },
     {
+        "item": "minecraft:cyan_dye"
+    },
+    {
       "tag": "c:tools/chisel"
     }
   ],

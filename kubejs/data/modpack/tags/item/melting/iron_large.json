@@ -10,6 +10,9 @@
         "firmalife:compost_tumbler",
         "minecraft:iron_block",
         "farmersdelight:skillet",
-        "minecraft:lodestone"
+        "minecraft:lodestone",
+        "minecraft:anvil",
+        "minecraft:chipped_anvil",
+        "minecraft:damaged_anvil"
     ]
 }

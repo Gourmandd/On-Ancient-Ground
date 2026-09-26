@@ -27,6 +27,13 @@
         "quark:rusty_iron_plate",
         "quark:rusty_iron_plate_slab",
         "quark:rusty_iron_plate_stairs",
-        "quark:iron_pillar"
+        "quark:iron_pillar",
+        "architects_palette:plating_block",
+        "architects_palette:plating_slab",
+        "architects_palette:plating_stairs",
+        "architects_palette:plating_wall",
+        "architects_palette:pipe",
+        "architects_palette:tread_plate",
+        "architects_palette:plating_nub"
     ]
 }

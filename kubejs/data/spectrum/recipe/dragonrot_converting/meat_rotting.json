@@ -1,0 +1,12 @@
+{
+  "type": "spectrum:dragonrot_converting",
+  "ingredient": [
+    {
+      "tag": "c:foods/meats"
+    }
+  ],
+  "result": {
+    "id": "minecraft:rotten_flesh",
+    "count": 1
+  }
+}
