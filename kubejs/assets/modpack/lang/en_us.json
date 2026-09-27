@@ -30,5 +30,13 @@
     "rock.modpack.blueschist": "Blueschist",
     "rock.modpack.serpentine": "Serpentine",
     "rock.modpack.blackslag": "Blackslag",
-    "rock.modpack.picrite_basalt": "Picrite Basalt"
+    "rock.modpack.picrite_basalt": "Picrite Basalt",
+
+    "emi.category.tfc.earthenware_knapping": "Earthenware Knapping",
+    "emi.category.tfc.yixing_knapping": "Yixing Knapping",
+    "emi.category.tfc.yellowware_knapping": "Yellowware Knapping",
+    "emi.category.tfc.porcelain_knapping": "Porcelain Knapping",
+    "emi.category.tfc.kaolinite_knapping": "Kaolinite Knapping",
+    "emi.category.tfc.pumpkin_knapping": "Pumpkin Knapping"
+
 }
