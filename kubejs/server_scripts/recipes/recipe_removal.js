@@ -475,6 +475,8 @@ ServerEvents.recipes(event => {
         "architects_palette:sheet_metal_block",
         "architects_palette:olivestone_bricks_from_tiles",
         "architects_palette:olivestone_tiles_from_bricks",
+        "architects_palette:lit_osseous_skull",
+        "architects_palette:lit_withered_osseous_skull",
 
         "artisanal:crafting/pumpkin_pie",
 
@@ -1036,7 +1038,6 @@ ServerEvents.recipes(event => {
         "minecraft:acacia_hanging_sign",
         "minecraft:activator_rail",
         "minecraft:andesite",
-        "minecraft:armor_stand",
         "minecraft:baked_potato_from_campfire_cooking",
         "minecraft:baked_potato_from_smoking",
         "minecraft:bamboo_chest_raft",
@@ -1076,7 +1077,6 @@ ServerEvents.recipes(event => {
         "minecraft:cake",
         "minecraft:campfire",
         "minecraft:candle",
-        "minecraft:cauldron",
         "minecraft:chain",
         "minecraft:charcoal",
         "minecraft:cherry_hanging_sign",
@@ -1541,6 +1541,7 @@ ServerEvents.recipes(event => {
         "quark:tweaks/crafting/panes/dirty_glass_pane",
         "quark:tweaks/crafting/glass/mixed_dirty_glass",
         "quark:building/crafting/sturdy_stone_uncompress",
+        "quark:building/crafting/iron_ladder",
 
         "quark:oddities/crafting/backpack",
         "quark:oddities/crafting/backpack_no_hide",
@@ -1638,6 +1639,8 @@ ServerEvents.recipes(event => {
         "shutter:willow_shutter",
         "shutter:wisteria_shutter",
 
+        "spectrum:anvil_crushing/vanilla_pulverising/pumpkin_seeds_from_pumpkin",
+        "minecraft:pumpkin_seeds",
         "spectrum:anvil_crushing/amaranth_grains",
         "spectrum:anvil_crushing/dye/black_dye_from_wither_rose",
         "spectrum:anvil_crushing/dye/blue_dye_from_cornflower",
@@ -1926,8 +1929,9 @@ ServerEvents.recipes(event => {
         "spectrum:primordial_fire_burning/campfire_unsouling",
         "spectrum:primordial_fire_burning/soul_lantern_unsouling",
         "spectrum:primordial_fire_burning/torch_unsouling",
+        "spectrum:primordial_fire_burning/primordial_torch",
 
-        "spectrum:spirit_instiller/spawner/spawner_creature_change",
+        "spectrum:midnight_solution_converting/blackstone",
 
         "spectrum:stonecutting/calcite/calcite_bricks_from_polished_calcite",
         "spectrum:stonecutting/calcite/calcite_slab_from_calcite",
@@ -1962,6 +1966,7 @@ ServerEvents.recipes(event => {
         "tfc:crafting/mud_bricks/alfisol_stairs_small",
         "tfc:crafting/mud_bricks/podzol_stairs_small",
         "tfc:crafting/yellow_dye",
+        "tfc:crafting/music_disc_11",
 
         "tfc:heating/food/barley_bread",
         "tfc:heating/food/maize_bread",

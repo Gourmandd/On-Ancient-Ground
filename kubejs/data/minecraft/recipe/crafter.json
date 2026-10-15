@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "III",
+        "RCR",
+        "RDR"
+    ],
+    "key": {
+        "R": {
+            "item": "minecraft:redstone"
+        },
+        "D": {
+            "item": "minecraft:dropper"
+        },
+        "C": {
+            "item": "minecraft:crafting_table"
+        },
+        "I": {
+            "item": "tfc:metal/rod/wrought_iron"
+        }
+    },
+    "result": {
+        "id": "minecraft:crafter"
+    }
+}

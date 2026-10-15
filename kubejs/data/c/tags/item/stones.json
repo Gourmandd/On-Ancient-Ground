@@ -1,0 +1,15 @@
+{
+    "replace": false,
+    "values": [],
+    "remove": [
+        "architects_palette:myonite",
+        "minecraft:andesite",
+        "minecraft:diorite",
+        "minecraft:granite",
+        "minecraft:tuff",
+        "spectrum:shale_clay",
+        "spectrum:pyrite",
+        "quark:myalite",
+        "quark:permafrost"
+    ]
+}

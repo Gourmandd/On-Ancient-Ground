@@ -11,17 +11,8 @@ try {
         event.remove({ type: "minecraft:crafting_shaped", mod: "caupona" })
         event.remove({ type: "architects_palette:warping" })
         event.remove({ type: "createbigcannons:melting" })
-        //event.remove({ type: "caupona:boiling" })
-        //event.remove({ type: "caupona:cooking" })
-        //event.remove({ type: "caupona:dolium", mod: "caupona" })
-        //event.remove({ type: "caupona:frying" })
-        //event.remove({ type: "caupona:bowl" })
         event.remove({ mod: "caupona", not: { type: "minecraft:stonecutting" } })
-        //event.remove({ type: "caupona:spice" })
-        //event.remove({ mod: "quark", input: Ingredient.of(/.*glass.*/) })
-        //event.remove({ mod: "simpleradio" })
         event.remove({ mod: "copycats" })
-        //event.remove({ mod: "functionalstorage" })
         event.remove({ mod: "everycomp", type: "farmersdelight:cutting" })
 
         event.remove({ mod: "farmersdelight", output: "#c:stripped_logs" })
@@ -29,10 +20,8 @@ try {
         event.remove({ mod: "farmersdelight", output: "#minecraft:planks" })
         event.remove({ mod: "farmersdelight", output: "#c:dyes" })
 
-
-        event.remove({ type: "minecraft:blasting", not: { mod: "spectrum" } })
-        event.remove({ type: "minecraft:smelting", not: { mod: "spectrum" } })
-        event.remove({ type: "minecraft:blasting", input: "#c:ores" })
+        event.remove({ type: "minecraft:blasting"})
+        event.remove({ type: "minecraft:smelting"})
 
         event.replaceInput({ item: "minecraft:honeycomb", not: { output: "minecraft:honeycomb_block" } }, "minecraft:honeycomb", "firmalife:beeswax")
     })

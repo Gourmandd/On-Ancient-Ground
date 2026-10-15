@@ -1,0 +1,27 @@
+{
+  "type": "spectrum:pedestal",
+  "time": 80,
+  "tier": "basic",
+  "colors": {
+    "spectrum:cyan": 0,
+    "spectrum:magenta": 4,
+    "spectrum:yellow": 0,
+    "spectrum:white": 0,
+    "spectrum:black": 0
+  },
+  "experience": 0.5,
+  "pattern": [
+    "GGG",
+    "GEG",
+    "GGG"
+  ],
+  "key": {
+    "E": "spectrum:radiating_ender",
+    "G": "minecraft:obsidian"
+  },
+  "result": {
+    "id": "minecraft:ender_chest",
+    "count": 1
+  },
+  "required_advancement": "spectrum:unlocks/blocks/ender_glass"
+}

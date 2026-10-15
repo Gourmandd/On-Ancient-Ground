@@ -20,6 +20,15 @@
         },
         {
             "item": "spectrum:restoration_tea"
+        },
+        {
+            "item": "spectrum:peach_cream"
+        },
+        {
+            "item": "spectrum:junket"
+        },
+        {
+            "item": "spectrum:sedatives"
         }
     ],
     "category": "other",

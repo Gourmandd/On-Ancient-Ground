@@ -23,7 +23,7 @@ ServerEvents.recipes(event => {
             id: "soda_ash_kelp"
         },
         {
-            input: [inputOf(ITEM, "minecraft:sand", 1), inputOf(FLUID, "tfc:limewater", 100)],
+            input: [inputOf(TAG, "minecraft:sand", 1), inputOf(FLUID, "tfc:limewater", 100)],
             result: [outputOf(ITEM, "tfc:mortar", 16, 1)],
             heated: HEAT_REQUIREMENT.HEATED,
             id: "mortar"
