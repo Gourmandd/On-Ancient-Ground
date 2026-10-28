@@ -1,0 +1,11 @@
+{
+  "values": [],
+  "remove": [
+    "minecraft:cherry_leaves",
+    "minecraft:chorus_flower",
+    "minecraft:flowering_azalea",
+    "minecraft:flowering_azalea_leaves",
+    "minecraft:mangrove_propagule",
+    "minecraft:pink_petals"
+  ]
+}

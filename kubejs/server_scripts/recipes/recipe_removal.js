@@ -1916,12 +1916,10 @@ ServerEvents.recipes(event => {
         "spectrum:pedestal/tier1/vanilla/packed_mud",
         "spectrum:pedestal/tier2/vanilla/bell",
         "spectrum:pedestal/tier2/vanilla/name_tag",
-        "spectrum:pedestal/tier3/artisans_atlas",
         "spectrum:pedestal/tier4/perturbed_eye",
         "spectrum:pedestal/tier4/vanilla/elytra",
 
         "spectrum:potion_workshop_crafting/powder_snow_bucket",
-        "spectrum:potion_workshop_crafting/midnight_solution_bucket",
         "spectrum:potion_workshop_crafting/dragonrot_bucket",
         "spectrum:potion_workshop_crafting/lava_bucket",
         "spectrum:potion_workshop_crafting/water_bucket",

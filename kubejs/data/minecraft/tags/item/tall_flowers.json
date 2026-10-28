@@ -1,0 +1,10 @@
+{
+  "values": [],
+  "remove": [
+    "farmersdelight:wild_rice",
+    "minecraft:lilac",
+    "minecraft:peony",
+    "minecraft:rose_bush",
+    "minecraft:sunflower"
+  ]
+}

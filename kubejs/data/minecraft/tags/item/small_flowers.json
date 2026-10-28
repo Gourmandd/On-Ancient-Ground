@@ -1,0 +1,27 @@
+{
+  "values": [],
+  "remove": [
+    "farmersdelight:wild_beetroots",
+    "farmersdelight:wild_cabbages",
+    "farmersdelight:wild_carrots",
+    "farmersdelight:wild_onions",
+    "farmersdelight:wild_potatoes",
+    "farmersdelight:wild_tomatoes",
+    "minecraft:allium",
+    "minecraft:azure_bluet",
+    "minecraft:blue_orchid",
+    "minecraft:cornflower",
+    "minecraft:dandelion",
+    "minecraft:white_tulip",
+    "minecraft:red_tulip",
+    "minecraft:poppy",
+    "minecraft:pink_tulip",
+    "minecraft:orange_tulip",
+    "minecraft:lily_of_the_valley",
+    "minecraft:oxeye_daisy",
+    "rusticdelight:wild_cotton",
+    "spectrum:amaranth_bushel",
+    "rusticdelight:wild_coffee",
+    "rusticdelight:wild_bell_peppers"
+  ]
+}

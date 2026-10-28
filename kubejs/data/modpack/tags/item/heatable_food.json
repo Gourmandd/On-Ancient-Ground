@@ -10,6 +10,7 @@
         "rusticdelight:coffee_beans",
         "modpack:halloumi",
         "#c:foods/cookie_dough",
-        "#c:foods/cake_base"
+        "#c:foods/cake_base",
+        "spectrum:lizard_meat"
     ]
 }

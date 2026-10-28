@@ -20,6 +20,7 @@ ServerEvents.recipes(event => {
         "minecraft:dripstone_block": "quark:polished_dripstone",
         "minecraft:deepslate": "minecraft:polished_deepslate",
         "spectrum:blackslag": "spectrum:polished_blackslag",
+        "spectrum:shale_clay": "spectrum:polished_shale_clay",
         "minecraft:blackstone": "minecraft:polished_blackstone",
         "minecraft:basalt": "minecraft:polished_basalt",
 

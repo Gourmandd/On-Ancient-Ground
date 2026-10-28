@@ -1,0 +1,18 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+        "type": "tfc:and",
+        "children": [
+            {
+                "item": "spectrum:lizard_meat"
+            },
+            {
+                "type": "tfc:not_rotten"
+            }
+        ]
+    },
+    "result_item": {
+        "id": "spectrum:cooked_lizard_meat"
+    },
+    "temperature": 200
+}
