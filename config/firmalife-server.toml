@@ -56,8 +56,8 @@
 	# If true, players can throw seed balls.
 	enableSeedBalls = true
 	#
-	# The capacity in mB of the wine glass. Default 250
-	# Default: 250
+	# The capacity in mB of the hollow shell. Default 100
+	# Default: 100
 	# Range: > 1
 	hollowShellCapacity = 100
 	#
@@ -107,6 +107,11 @@
 	#
 	# If false, sprinklers will not accept Firmalife pipes and will instead require something that exposes a fluid capability, eg. a barrel.
 	usePipesForSprinklers = true
+	#
+	# The capacity in mB of the wine glass. Default 250
+	# Default: 250
+	# Range: > 1
+	wineGlassCapacity = 250
 
 [foodTraits]
 	#

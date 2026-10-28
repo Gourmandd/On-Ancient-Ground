@@ -568,7 +568,7 @@
 		# Range: > 0
 		fruitBranchGrowthTicks = 120000
 		#
-		# Ticks required between berry bush growth steps
+		# Ticks required between banana tree growth steps
 		# Default: 115200
 		# Range: > 0
 		bananaPlantGrowthTicks = 96000
@@ -577,6 +577,11 @@
 		# Default: 288000
 		# Range: > 0
 		fruitPickBloomDelayTicks = 240000
+		#
+		# Ticks required between berry bush growth steps
+		# Default: 115200
+		# Range: > 0
+		berryBushGrowthTicks = 115200
 
 	[blocks.crops]
 		#
