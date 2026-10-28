@@ -4,7 +4,7 @@
         "1.21.1"
     ],
     "loaders": {
-        "neoforge": "21.1.234"
+        "neoforge": "21.1.252"
     },
     "projects": [
         {
@@ -3522,7 +3522,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "Firmalife-NeoForge-1.21.1-3.0.14.jar",
+                    "file_name": "Firmalife-NeoForge-1.21.1-3.0.15.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -3530,23 +3530,23 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/5bKeBHw2/versions/Mg5NuXg7/Firmalife-NeoForge-1.21.1-3.0.14.jar",
-                    "id": "Mg5NuXg7",
+                    "url": "https://cdn.modrinth.com/data/5bKeBHw2/versions/uo4wPiqB/Firmalife-NeoForge-1.21.1-3.0.15.jar",
+                    "id": "uo4wPiqB",
                     "parent_id": "5bKeBHw2",
                     "hashes": {
-                        "sha512": "d9f2bba99656030936af79a5ea74946f55feddf67091d8b8e50f6a9054bbbd3ff7f94df51a97098e497a16537c8182af5740c0f58e460c5edbde88a6624480aa",
-                        "sha1": "4c45926bad20292eee7b9714cd696037b3e0ca37"
+                        "sha512": "2dba28a0b955ba81de31a02d3f2467b0556df0a4e7568b1616153c5d43d4cfe2510d63dc67ae43a1a6dc64e01ea27e41080d0a3be0a3e1ce0f8c258ae1b32782",
+                        "sha1": "10c011acc578e6b0a04da9171ac52a5507f5990c"
                     },
                     "required_dependencies": [
                         "nU0bVIaL",
                         "JaCEZUhg"
                     ],
-                    "size": 4488045,
-                    "date_published": "2026-08-29T14:11:37.662397Z"
+                    "size": 4529084,
+                    "date_published": "2026-09-27T22:40:34.148761Z"
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "Firmalife-NeoForge-1.21.1-3.0.14.jar",
+                    "file_name": "Firmalife-NeoForge-1.21.1-3.0.15.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -3554,19 +3554,19 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8761/643/Firmalife-NeoForge-1.21.1-3.0.14.jar",
-                    "id": "8761643",
+                    "url": "https://edge.forgecdn.net/files/8994/973/Firmalife-NeoForge-1.21.1-3.0.15.jar",
+                    "id": "8994973",
                     "parent_id": "453394",
                     "hashes": {
-                        "sha1": "4c45926bad20292eee7b9714cd696037b3e0ca37",
-                        "md5": "77961776225170e0e303baf18a7c0080"
+                        "sha1": "10c011acc578e6b0a04da9171ac52a5507f5990c",
+                        "md5": "a4f405733010dde4c28ad02b9cdb3f60"
                     },
                     "required_dependencies": [
                         "302973",
                         "306770"
                     ],
-                    "size": 4488045,
-                    "date_published": "2026-08-29T14:11:36.167Z"
+                    "size": 4529084,
+                    "date_published": "2026-09-27T22:40:31.250Z"
                 }
             ]
         },
@@ -5896,7 +5896,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "Quark-4.1-482.jar",
+                    "file_name": "Quark-4.1-487.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -5904,22 +5904,22 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/qnQsVE2z/versions/yvp3Jbmk/Quark-4.1-482.jar",
-                    "id": "yvp3Jbmk",
+                    "url": "https://cdn.modrinth.com/data/qnQsVE2z/versions/18h0L19k/Quark-4.1-487.jar",
+                    "id": "18h0L19k",
                     "parent_id": "qnQsVE2z",
                     "hashes": {
-                        "sha512": "811e1e9f263a7e4951896a646507d6d03bebef6c38c113425e5d25acd4da0af9a07a6e5f9f11393cb41cb6f1a97667d7748c4bf21bf842e87ca2b05d6ea9cd81",
-                        "sha1": "f73c3008321a9fb2da1151be9b49f0dfd006b6b5"
+                        "sha512": "0d1869d5d912e4f36d5e7c62acb9720cdb8c163911f09dad8f9eb3592bde4e1b25d664a8ed24d9002cb77ae6fd2f37768d3a97b779e7f9d84c567de83c9599f2",
+                        "sha1": "d421f58ef6d31dc456c25890a5770b2609917d09"
                     },
                     "required_dependencies": [
                         "MVARlG2f"
                     ],
-                    "size": 15576704,
-                    "date_published": "2026-07-12T20:07:36.830573Z"
+                    "size": 15594344,
+                    "date_published": "2026-10-05T22:50:50.806236Z"
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "Quark-4.1-482.jar",
+                    "file_name": "Quark-4.1-487.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -5927,18 +5927,18 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8420/966/Quark-4.1-482.jar",
-                    "id": "8420966",
+                    "url": "https://edge.forgecdn.net/files/9074/160/Quark-4.1-487.jar",
+                    "id": "9074160",
                     "parent_id": "243121",
                     "hashes": {
-                        "sha1": "f73c3008321a9fb2da1151be9b49f0dfd006b6b5",
-                        "md5": "7eecf92568194350f449681ebbf5769f"
+                        "sha1": "d421f58ef6d31dc456c25890a5770b2609917d09",
+                        "md5": "3e6fdf612cf4ecc6b514ddb2162d91ee"
                     },
                     "required_dependencies": [
                         "968868"
                     ],
-                    "size": 15576704,
-                    "date_published": "2026-07-12T20:07:37.930Z"
+                    "size": 15594344,
+                    "date_published": "2026-10-05T22:50:52.193Z"
                 }
             ]
         },
@@ -7169,11 +7169,11 @@
             ]
         },
         {
-            "pakku_id": "0huXalzFYlxCU9vN",
+            "pakku_id": "3bkGNOFLmVDCGQnU",
             "pakku_links": [
-                "CPUJPtsrDDHJBced",
+                "B9rCrTdjB1Frl92q",
                 "kyoI3cFLp8p0Mvsa",
-                "B9rCrTdjB1Frl92q"
+                "CPUJPtsrDDHJBced"
             ],
             "type": "MOD",
             "side": "BOTH",
@@ -7190,27 +7190,6 @@
                 "modrinth": "ZXXbAjQC"
             },
             "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "survivorsdelight-3.3.2-neoforge.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/ZXXbAjQC/versions/bihGfIPT/survivorsdelight-3.3.2-neoforge.jar",
-                    "id": "bihGfIPT",
-                    "parent_id": "ZXXbAjQC",
-                    "hashes": {
-                        "sha512": "729e74c36e697fdb33f78396db417ee76ce64ad8ddeaf96405714adb60da07573badb08b5227354373f12c2772c4c63982ae67e6d9907358de9e156cd8d886b6",
-                        "sha1": "b0dd83af528fe2b936ac6ef64d47136d33c7de6b"
-                    },
-                    "required_dependencies": [],
-                    "size": 1291370,
-                    "date_published": "2026-07-30T10:31:39.467789Z"
-                },
                 {
                     "type": "curseforge",
                     "file_name": "survivorsdelight-3.3.4-neoforge.jar",
@@ -7230,11 +7209,32 @@
                     },
                     "required_dependencies": [
                         "302973",
-                        "1354890",
-                        "398521"
+                        "398521",
+                        "1354890"
                     ],
                     "size": 1291488,
                     "date_published": "2026-08-20T08:28:37.910Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "survivorsdelight-3.3.4-neoforge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/ZXXbAjQC/versions/z9QMJ0eT/survivorsdelight-3.3.4-neoforge.jar",
+                    "id": "z9QMJ0eT",
+                    "parent_id": "ZXXbAjQC",
+                    "hashes": {
+                        "sha512": "4174936f86d6f741f251b846e39b85a31fe000ce01408ba7409c7dbe7831424063fb0f80860b386ebe84508182d42bf7713f71bc87d3ec3fcb89c1f9b7b8156a",
+                        "sha1": "bc8287ea9ac63d84aa48fce44141db2dea595afb"
+                    },
+                    "required_dependencies": [],
+                    "size": 1291488,
+                    "date_published": "2026-10-06T10:38:17.937218Z"
                 }
             ]
         },
@@ -7396,7 +7396,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "TerraFirmaCraft-NeoForge-1.21.1-4.2.9.jar",
+                    "file_name": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -7404,22 +7404,22 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/JaCEZUhg/versions/Rf4m5H5l/TerraFirmaCraft-NeoForge-1.21.1-4.2.9.jar",
-                    "id": "Rf4m5H5l",
+                    "url": "https://cdn.modrinth.com/data/JaCEZUhg/versions/2gXJo8Ol/TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+                    "id": "2gXJo8Ol",
                     "parent_id": "JaCEZUhg",
                     "hashes": {
-                        "sha512": "3479c580aae3cd57e60f0d44d618c0af61221012b9abef1ce9f68562f4cd0617cd33fc49fc60bb8bfb2b198519319ba5d65b0241fbcefb63a20ac74b6b962019",
-                        "sha1": "b4770e00d32b8df89ef68af2f5a910aefedf4c50"
+                        "sha512": "e535fa4694a24fae297be2ed0bf3d29a9e1f14d7758acb946a389e9de06e7e3add9ccb272ccc07c7fee3b1f6850476e85112a50dd7aa7c524fb450445f31a5f0",
+                        "sha1": "297d45c6234310b0103191de5f574c637875254a"
                     },
                     "required_dependencies": [
                         "nU0bVIaL"
                     ],
-                    "size": 65360027,
-                    "date_published": "2026-08-29T15:57:00.588069Z"
+                    "size": 65439260,
+                    "date_published": "2026-10-14T22:46:56.668017Z"
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "TerraFirmaCraft-NeoForge-1.21.1-4.2.9.jar",
+                    "file_name": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -7427,18 +7427,18 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8762/354/TerraFirmaCraft-NeoForge-1.21.1-4.2.9.jar",
-                    "id": "8762354",
+                    "url": "https://edge.forgecdn.net/files/9184/471/TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+                    "id": "9184471",
                     "parent_id": "302973",
                     "hashes": {
-                        "sha1": "b4770e00d32b8df89ef68af2f5a910aefedf4c50",
-                        "md5": "733af2e2bb9125f6768a33fe86aa26c3"
+                        "sha1": "297d45c6234310b0103191de5f574c637875254a",
+                        "md5": "934779f668442305a75bbb6baf61b1ab"
                     },
                     "required_dependencies": [
                         "306770"
                     ],
-                    "size": 65360027,
-                    "date_published": "2026-08-29T15:56:51.060Z"
+                    "size": 65439260,
+                    "date_published": "2026-10-14T22:46:49.137Z"
                 }
             ]
         },
