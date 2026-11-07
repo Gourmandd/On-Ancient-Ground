@@ -4,12 +4,12 @@
     "count": 1,
     "id": "minecraft:bowl"
   },
-  "fluid": {
-      "amount": 200,
-      "fluid": "minecraft:water"
-  },
   "cookingtime": 900,
   "experience": 3.0,
+  "fluid": {
+      "fluid": "minecraft:water"
+  },
+  "fluid_amount": 200,
   "ingredients": [
     {
       "type": "tfc:and",
