@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "S ",
+        " I"
+    ],
+    "key": {
+        "S": {
+            "tag": "c:rods/wooden"
+        },
+        "I": {
+            "item": "tfc:metal/double_sheet/wrought_iron"
+        }
+    },
+    "result": {
+        "id": "quark:trowel"
+    }
+}

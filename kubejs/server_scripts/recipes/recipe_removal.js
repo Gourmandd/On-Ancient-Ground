@@ -1406,7 +1406,6 @@ ServerEvents.recipes(event => {
         "minecraft:suspicious_stew",
         "minecraft:tide_armor_trim_smithing_template",
         "minecraft:tinted_glass",
-        "minecraft:tnt",
         "minecraft:torch",
         "minecraft:trapped_chest",
         "minecraft:tripwire_hook",
