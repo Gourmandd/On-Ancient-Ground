@@ -30,20 +30,6 @@ ServerEvents.recipes(event => {
 
     const PROCESSING_TIME_HARD = 400
 
-
-    global.TFC_GEMS.forEach(gem => {
-
-        datagen.createCrushing(outputOf(ITEM, `tfc:powder/${gem}`, 4, 1), inputOf(ITEM, `tfc:ore/${gem}`, 1))
-            .id(`${mod_id}:crushing/gem/${gem}`)
-            .processingTime(PROCESSING_TIME_HARD)
-            .generate()
-
-        datagen.createCrushing(outputOf(ITEM, `tfc:powder/${gem}`, 4, 1), inputOf(ITEM, `tfc:gem/${gem}`, 1))
-            .id(`${mod_id}:crushing/cut_gem/${gem}`)
-            .processingTime(PROCESSING_TIME_HARD)
-            .generate()
-    })
-
     // Tag was removed, lets replace it with our own at some point.
     /*
     global.TFC_MAKES_DYE_TAGS.forEach(colour =>{
@@ -72,34 +58,6 @@ ServerEvents.recipes(event => {
             .processingTime(PROCESSING_TIME)
             .generate()
     })
-
-    global.ROCK_TYPES.forEach(rockType => {
-
-        datagen.createCrushing(outputOf(ITEM, `tfc:rock/gravel/${rockType}`, 1, 1), inputOf(ITEM, `tfc:rock/cobble/${rockType}`, 1))
-            .id(`${mod_id}:crushing/cobble/${rockType}`)
-            .processingTime(PROCESSING_TIME_HARD)
-            .generate()
-
-        datagen.createCrushing(outputOf(ITEM, `tfc:rock/gravel/${rockType}`, 1, 1), inputOf(ITEM, `tfc:rock/mossy_cobble/${rockType}`, 1))
-            .id(`${mod_id}:crushing/mossy_cobble/${rockType}`)
-            .processingTime(PROCESSING_TIME_HARD)
-            .generate()
-
-        datagen.createCrushing(outputOf(ITEM, `tfc:sand/${global.ROCKS_TO_SAND_COLOURS[rockType]}`, 1, 1), inputOf(ITEM, `tfc:rock/gravel/${rockType}`, 1))
-            .id(`${mod_id}:crushing/gravel/${rockType}`)
-            .processingTime(PROCESSING_TIME_HARD)
-            .generate()
-    })
-
-
-    global.TFC_SAND_COLOURS.forEach(colour => {
-
-        datagen.createMilling(outputOf(ITEM, `tfc:sand/${colour}`, 1, 1), inputOf(ITEM, `tfc:raw_sandstone/${colour}`, 1))
-            .id(`${mod_id}:milling/raw_sandstone/${colour}`)
-            .processingTime(PROCESSING_TIME_HARD)
-            .generate()
-    })
-
 
     global.RAW_METALS.forEach(metal => {
 
