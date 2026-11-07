@@ -1,0 +1,36 @@
+#Global toggle for the 'glowing' feature. Disabling this setting will prevent creation of new glowing marks. Existing marks will remain.
+#Default: true
+glowing_enabled = true
+
+[chalk]
+	#Defines which color a specific dye would have when applied to a chalk item.
+	chalk_dye_colors = ["white:#FFFFFF", "light_gray:#BDBFBE", "gray:#818285", "black:#2C2D2E", "brown:#BF7B43", "red:#F55A49", "orange:#FF9A3D", "yellow:#FFDB4A", "lime:#AAF048", "green:#78C73C", "cyan:#37DCD2", "light_blue:#95E3FD", "blue:#5583F8", "purple:#C061FF", "magenta:#F85EC4", "pink:#FF87A9", "maroon:#7B2713", "rose:#FF5E64", "coral:#DF7758", "indigo:#331E57", "navy:#153D64", "slate:#4C5E86", "olive:#8C8F2A", "amber:#D7AF00", "beige:#E1D5A3", "teal:#2F7B67", "mint:#38CE7D", "aqua:#5EF0CC", "verdant:#255714", "forest:#32A326", "ginger:#CF6121", "tan:#F49C5D"]
+	#Colored chalks will be added to creative menu and JEI
+	#Default: true
+	add_dyed_chalks_to_tab = true
+	#Colored chalks will be named after a dye color if only a single dye was used to color it.
+	#Default: true
+	dyed_chalk_names = true
+
+[chalk_box]
+	#Durability bar of selected chalk will be shown on a chalk box.
+	#Default: true
+	show_durability_bar = true
+	#Controls whether glowing should be enabled in Chalk Box.
+	#If disabled - you will not be able to draw glowing marks with chalk box.
+	#Default: true
+	glowing_enabled = true
+	#How many glowing uses one glowing item will give.
+	#Default: 8
+	# Default: 8
+	# Range: 1 ~ 9999
+	amount_per_glowing_item = 8
+
+[symbols]
+	#Some mark symbols need to be unlocked by completing specific advancements.
+	#Setting this to 'false' will bypass the unlocking feature, making all symbols always available.
+	#Default: true
+	unlocking = true
+	#When a symbol is unlocked, message will be shown in the chat.
+	#Default: true
+	unlocking_chat_message = true
