@@ -7,7 +7,7 @@
         "item": "spectrum:turtle_head"
     },
     "ingredient2": {
-        "item": "minecraft:seagrass"
+        "item": "tfc:plant/giant_kelp_flower"
     },
     "center_ingredient": {
         "tag": "spectrum:memory_bonding_agents",
