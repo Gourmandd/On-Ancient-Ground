@@ -118,6 +118,17 @@
       "recipe_id": "spectrum:pedestal/tier1/saplings/yellow"
     },
     {
+      "type": "modonomicon:crafting_recipe",
+      "condition": {
+        "type": "modonomicon:advancement",
+        "advancement_id": "spectrum:collect_pigment"
+      },
+      "anchor": "colored_wood",
+      "title": "book.spectrum.guidebook.colored_trees.colored_wood.title",
+      "recipe_id_1": "modpack:crafting/light_blue_planks",
+      "text": "book.spectrum.guidebook.colored_trees.colored_wood.text"
+    },
+    {
       "type": "spectrum:anvil_crushing",
       "condition": {
         "type": "modonomicon:advancement",

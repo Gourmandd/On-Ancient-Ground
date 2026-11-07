@@ -31,12 +31,6 @@
       "text": "book.spectrum.guidebook.perturbed_eye.page1.text"
     },
     {
-      "type": "spectrum:pedestal_crafting",
-      "text": "book.spectrum.guidebook.perturbed_eye.page2.text",
-      "title": "container.spectrum.rei.pedestal_recipe",
-      "recipe_id": "spectrum:pedestal/tier4/perturbed_eye"
-    },
-    {
       "type": "modonomicon:multiblock",
       "multiblock_id": "spectrum:perturbed_eye_portal",
       "text": "book.spectrum.guidebook.perturbed_eye.page3.text",
