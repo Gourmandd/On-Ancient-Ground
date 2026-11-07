@@ -38,6 +38,9 @@
         "copycats:copycat_fluid_pipe",
         "copycats:copycat_shaft",
         "copycats:copycat_cogwheel",
-        "copycats:copycat_large_cogwheel"
+        "copycats:copycat_large_cogwheel",
+        "copycats:copycat_pane",
+        "copycats:copycat_flat_pane",
+        "copycats:copycat_byte_panel"
     ]
 }

@@ -1,0 +1,16 @@
+{
+    "type": "tfc:anvil",
+    "ingredient": {
+        "item": "tfc:metal/rod/zinc"
+    },
+    "result": {
+        "count": 10,
+        "id": "copycats:copycat_slope"
+    },
+    "tier": 1,
+    "rules": [
+        "upset_last",
+        "bend_second_last",
+        "bend_third_last"
+    ]
+}
