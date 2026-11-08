@@ -11,48 +11,21 @@ ServerEvents.tags("item", event => {
             event.add(`modpack:cutting/wood/for_planks/${type}`, `${mod}:wood/planks/${type}_${item}`)
         })
 
-
-        event.add(`modpack:cutting/wood/for_planks/${type}`, `everycomp:c/${mod}/${type}_window`)
-        event.add(`modpack:cutting/wood/for_planks/${type}`, `everycomp:fd/${mod}/${type}_cabinet`)
-        event.add(`modpack:cutting/wood/for_planks/${type}`, `everycomp:hnhome/${mod}/${type}_sanded_wood`)
-        event.add(`modpack:cutting/wood/for_planks/${type}`, `everycomp:hnhome/${mod}/${type}_parquet`)
-        event.add(`modpack:cutting/wood/for_planks/${type}`, `everycomp:hnhome/${mod}/${type}_trim`)
-        event.add(`modpack:cutting/wood/for_planks/${type}`, `everycomp:hnhome/${mod}/${type}_vertical_trim`)
-        event.add(`modpack:cutting/wood/for_planks/${type}`, `everycomp:q/${mod}/${type}_post`)
-        event.add(`modpack:cutting/wood/for_planks/${type}`, `everycomp:q/${mod}/stripped_${type}_post`)
-        event.add(`modpack:cutting/wood/for_planks/${type}`, `everycomp:q/${mod}/vertical_${type}_planks`)
-        event.add(`modpack:cutting/wood/for_planks/${type}`, `everycomp:q/${mod}/hollow_${type}_log`)
-        event.add(`modpack:cutting/wood/for_planks/${type}`, `everycomp:af/${mod}/${type}_flower_box`)
-        event.add(`modpack:cutting/wood/for_planks/${type}`, `everycomp:af/${mod}/${type}_table`)
-        event.add(`modpack:cutting/wood/for_planks/${type}`, `everycomp:af/${mod}/${type}_chair`)
-        event.add(`modpack:cutting/wood/for_planks/${type}`, `everycomp:af/${mod}/${type}_shelf`)
-        event.add(`modpack:cutting/wood/for_planks/${type}`, `everycomp:af/${mod}/${type}_drawer`)
-        event.add(`modpack:cutting/wood/for_planks/${type}`, `everycomp:af/${mod}/${type}_bench`)
-        event.add(`modpack:cutting/wood/for_planks/${type}`, `everycomp:q/${mod}/${type}_bookshelf`)
-        event.add(`modpack:cutting/wood/for_planks/${type}`, `everycomp:hnhome/${mod}/${type}_lattice`)
-        event.add(`modpack:cutting/wood/for_planks/${type}`, `${mod}:wood/chest/${type}`)
-        event.add(`modpack:cutting/wood/for_planks/${type}`, `${mod}:wood/trapped_chest/${type}`)
-        event.add(`modpack:cutting/wood/for_planks/${type}`, `${mod}:wood/barrel/${type}`)
-        event.add(`modpack:cutting/wood/for_planks/${type}`, `${mod}:wood/lectern/${type}`)
-        event.add(`modpack:cutting/wood/for_planks/${type}`, `${mod}:wood/scribing_table/${type}`)
-        event.add(`modpack:cutting/wood/for_planks/${type}`, `${mod}:wood/sewing_table/${type}`)
-        event.add(`modpack:cutting/wood/for_planks/${type}`, `${mod}:wood/jar_shelf/${type}`)
+        if (mod == "tfc") // jarbnets for tfc wood types are registered by firmalife
+        {
+            event.add(`modpack:cutting/wood/for_planks/${type}`, `firmalife:wood/jarbnet/${type}`)
+        }
+        else
+        {
+            event.add(`modpack:cutting/wood/for_planks/${type}`, `${mod}:wood/jarbnet/${type}`)
+        }
         event.add(`modpack:cutting/wood/for_planks/${type}`, `${mod}:wood/boat/${type}`)
 
         // lumber
         GIVES_LUMBER.forEach(item => {
             event.add(`modpack:cutting/wood/for_lumber/${type}`, `${mod}:wood/planks/${type}_${item}`)
         })
-        event.add(`modpack:cutting/wood/for_lumber/${type}`, `everycomp:af/${mod}/${type}_shutter`)
-        event.add(`modpack:cutting/wood/for_lumber/${type}`, `everycomp:c/${mod}/${type}_window_pane`)
-        event.add(`modpack:cutting/wood/for_lumber/${type}`, `everycomp:q/${mod}/${type}_ladder`)
-        event.add(`modpack:cutting/wood/for_lumber/${type}`, `${mod}:wood/sluice/${type}`)
         event.add(`modpack:cutting/wood/for_lumber/${type}`, `${mod}:wood/support/${type}`)
-        event.add(`modpack:cutting/wood/for_lumber/${type}`, `${mod}:wood/sign/${type}`)
-
-        global.TOOL_METALS.forEach(metal => {
-            event.add(`modpack:cutting/wood/for_lumber/${type}`, `${mod}:wood/hanging_sign/${metal}/${type}`)
-        })
     })
 
     // terracotta and alabaster
