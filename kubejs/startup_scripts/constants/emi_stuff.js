@@ -766,7 +766,15 @@ global.EMI.BASIC_BLOCKS = [
 
     "modpack:ceramic/bricks/earthenware",
 
-    "firmalife:rustic_bricks"
+    "firmalife:rustic_bricks",
+
+    "modpack:rock/mossy_cobble/marlstone",
+
+    "modpack:rock/cobble/marlstone",
+
+    "modpack:rock/mossy_cobble/greywacke",
+
+    "modpack:rock/cobble/greywacke", 
 ]
 
 global.EMI.BASIC_BLOCKS_CUSTOM = [
