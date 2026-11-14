@@ -5416,38 +5416,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "modpack-1.0.7.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "alpha",
-                    "url": "https://cdn.modrinth.com/data/CrmKwlKa/versions/5rFKpDXJ/modpack-1.0.7.jar",
-                    "id": "5rFKpDXJ",
-                    "parent_id": "CrmKwlKa",
-                    "hashes": {
-                        "sha512": "91d0f204f24d1bf36a2aae8156d10b99e68383a9224ed6e1471288668374ed448ed4ea2cf84c691e2ca110573b89628b52bfa7f26ce6195f8bd1ce19f7004fc9",
-                        "sha1": "903d210b17a4107c7c58447997cb70718daaae5b"
-                    },
-                    "required_dependencies": [
-                        "qnQsVE2z",
-                        "9q4wtMjp",
-                        "NjHNA0vG",
-                        "EFoYZIZL",
-                        "ktECB2Rv",
-                        "LNytGWDc",
-                        "JaCEZUhg",
-                        "GWp4jCJj",
-                        "3rc31Hgo"
-                    ],
-                    "size": 8885593,
-                    "date_published": "2026-11-14T10:46:18.556015Z"
-                },
-                {
-                    "type": "curseforge",
-                    "file_name": "modpack-1.0.7.jar",
+                    "file_name": "modpack-1.0.8.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -5455,23 +5424,54 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/9608/429/modpack-1.0.7.jar",
-                    "id": "9608429",
-                    "parent_id": "1450027",
+                    "url": "https://cdn.modrinth.com/data/CrmKwlKa/versions/MNGLfp7N/modpack-1.0.8.jar",
+                    "id": "MNGLfp7N",
+                    "parent_id": "CrmKwlKa",
                     "hashes": {
-                        "sha1": "903d210b17a4107c7c58447997cb70718daaae5b",
-                        "md5": "557856da538aa7c47d6453f2cde99402"
+                        "sha512": "ba9fd47d54a099a05e4e26198569de1140b7485fdb7404461b4424d1b8f8c508d8018a9f1762d10c46db96310d766c83e35e82c9586b59050e197e8b1c117af0",
+                        "sha1": "0493018b58429769d2fb71fd126be8a0509793c9"
                     },
                     "required_dependencies": [
-                        "302973",
-                        "877545",
-                        "556967",
-                        "656147",
-                        "433862",
-                        "714019"
+                        "GWp4jCJj",
+                        "JaCEZUhg",
+                        "3rc31Hgo",
+                        "ktECB2Rv",
+                        "NjHNA0vG",
+                        "9q4wtMjp",
+                        "EFoYZIZL",
+                        "qnQsVE2z",
+                        "LNytGWDc"
                     ],
-                    "size": 8885593,
-                    "date_published": "2026-11-14T10:49:24.543Z"
+                    "size": 8885592,
+                    "date_published": "2026-11-14T17:48:48.338413Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "modpack-1.0.8.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "alpha",
+                    "url": "https://edge.forgecdn.net/files/9615/270/modpack-1.0.8.jar",
+                    "id": "9615270",
+                    "parent_id": "1450027",
+                    "hashes": {
+                        "sha1": "0493018b58429769d2fb71fd126be8a0509793c9",
+                        "md5": "64272b7aa81ade20bbdf34be912e4725"
+                    },
+                    "required_dependencies": [
+                        "556967",
+                        "714019",
+                        "877545",
+                        "433862",
+                        "302973",
+                        "656147"
+                    ],
+                    "size": 8885592,
+                    "date_published": "2026-11-14T17:49:25.773Z"
                 }
             ]
         },
