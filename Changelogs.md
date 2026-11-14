@@ -2,6 +2,15 @@
 
 All of the changelogs since version **0.1** (**Golden Horizons TFC**) to **On Ancient Ground 2.0: Alpha 5**
 
+# On Ancient Ground 2.0: Alpha 6
+
+Quick fix for some issues that were found not that long after alpha 5.
+
+# Fixes
+- Fixed server crash. (pack core mod was using client sided code on the server)
+- The keybind keys in the home page of the guide book no longer update, but now show the defaults (they did not show up at all outside of the development environment, strange issue, will look into it)  
+
+
 # On Ancient Ground 2.0: Alpha 5
 
 Its been a while, things are getting busy with uni and maybe trying to ship all the new Spectrum compat in a single release was not the best idea in hindsight, bu tI can say that I do think that we are hopefully just one alpha release away from the first release candidate! My hope for 2.0 is January as it would be roughly a year since the 1.21.1 port and rebrand happened. 
