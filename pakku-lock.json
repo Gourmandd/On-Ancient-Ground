@@ -5416,7 +5416,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "modpack-1.0.6.jar",
+                    "file_name": "modpack-1.0.7.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -5424,30 +5424,30 @@
                         "neoforge"
                     ],
                     "release_type": "alpha",
-                    "url": "https://cdn.modrinth.com/data/CrmKwlKa/versions/C0ByJxzu/modpack-1.0.6.jar",
-                    "id": "C0ByJxzu",
+                    "url": "https://cdn.modrinth.com/data/CrmKwlKa/versions/5rFKpDXJ/modpack-1.0.7.jar",
+                    "id": "5rFKpDXJ",
                     "parent_id": "CrmKwlKa",
                     "hashes": {
-                        "sha512": "d5ade73f0d6548d2ac02e67bd77bbe00ba2e3da752d94222268cc475b792860f16632a3f84d2d49312bcd861ac47a7cb3bc63cd67a9e323d827fa11f4e6f60a3",
-                        "sha1": "3f8b4a00e0559b7ad35a074a914a4e3241ce0ef6"
+                        "sha512": "91d0f204f24d1bf36a2aae8156d10b99e68383a9224ed6e1471288668374ed448ed4ea2cf84c691e2ca110573b89628b52bfa7f26ce6195f8bd1ce19f7004fc9",
+                        "sha1": "903d210b17a4107c7c58447997cb70718daaae5b"
                     },
                     "required_dependencies": [
-                        "3rc31Hgo",
+                        "qnQsVE2z",
+                        "9q4wtMjp",
                         "NjHNA0vG",
                         "EFoYZIZL",
-                        "9q4wtMjp",
                         "ktECB2Rv",
-                        "qnQsVE2z",
+                        "LNytGWDc",
                         "JaCEZUhg",
                         "GWp4jCJj",
-                        "LNytGWDc"
+                        "3rc31Hgo"
                     ],
-                    "size": 8626023,
-                    "date_published": "2026-07-25T08:38:46.067506Z"
+                    "size": 8885593,
+                    "date_published": "2026-11-14T10:46:18.556015Z"
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "modpack-1.0.6.jar",
+                    "file_name": "modpack-1.0.7.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -5455,23 +5455,23 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8504/866/modpack-1.0.6.jar",
-                    "id": "8504866",
+                    "url": "https://edge.forgecdn.net/files/9608/429/modpack-1.0.7.jar",
+                    "id": "9608429",
                     "parent_id": "1450027",
                     "hashes": {
-                        "sha1": "3f8b4a00e0559b7ad35a074a914a4e3241ce0ef6",
-                        "md5": "1a237bb0839b280795311efaf3990a25"
+                        "sha1": "903d210b17a4107c7c58447997cb70718daaae5b",
+                        "md5": "557856da538aa7c47d6453f2cde99402"
                     },
                     "required_dependencies": [
+                        "302973",
                         "877545",
                         "556967",
                         "656147",
                         "433862",
-                        "302973",
                         "714019"
                     ],
-                    "size": 8626023,
-                    "date_published": "2026-07-25T08:37:32.077Z"
+                    "size": 8885593,
+                    "date_published": "2026-11-14T10:49:24.543Z"
                 }
             ]
         },
