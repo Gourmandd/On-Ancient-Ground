@@ -1,6 +1,46 @@
 # Changelogs
 
-All of the changelogs since version **0.1** (**Golden Horizons TFC**) to **On Ancient Ground 2.0: Alpha 4**
+All of the changelogs since version **0.1** (**Golden Horizons TFC**) to **On Ancient Ground 2.0: Alpha 5**
+
+# On Ancient Ground 2.0: Alpha 5
+
+Its been a while, things are getting busy with uni and maybe trying to ship all the new Spectrum compat in a single release was not the best idea in hindsight, bu tI can say that I do think that we are hopefully just one alpha release away from the first release candidate! My hope for 2.0 is January as it would be roughly a year since the 1.21.1 port and rebrand happened. 
+
+# Content
+- Spectrum's biomes and structures now generate TFC appropiate blocks
+- Moved many Spectrum foods to use the oven or cooking pot.
+- All the copycat blocks now cost the name amount of zinc.
+- Updated Spectrum's guidebook with modpack changes.
+- Hand crafting for blaze cakes.
+- Added magma blocks for the relevant rock types.
+- Added large vessels for custom clay types.
+- Added barrels for Spectrum's wood types.
+- Renamed TFC amethyst to garnet, and TFC topaz to maxixe.
+- Tinted glass now uses powdered obsidian instead of amethyst.
+- Worldgen features now use hardened travertine.
+- Added a gated cooking pot recipe. (gated recipes unlocked by advancements like in Spectrum)
+- Placed item models for some of Spectrum's items, like cheong, pigment, and beverages.
+- Spectrum's freezing and heating idols have some removed, and some new recipes.
+- Spectrum's foundry enchantment can now do TFC heating recipes, or pick a result from a custom data map.
+- Spectrum's block flooder no longer uses vanilla cobblestone as its default block.
+- Added the ability to refine high carbon steel and blooms with Create mod mechanical presses.
+- Did some more work on the custom guide book. (book still is considered unfinished) 
+
+# Changes and Fixes
+- Removed mortared cobble (you can use cobble slabs)
+- Consistent workbench textures.
+- TFC Armadillo and Camel can be made with the spirit instiller.
+- FD cutting recipes now display.
+- Other mod's biome modifiers that we don't want are disabled.
+- Custom fruit tree's leaves now drop fruit leaves, wolfberry leaves can drop a wolfberry leaf. 
+- Updated textures for rock type blocks.
+- Removed ore blocks of rock types that don't have ores. (such as suevite)
+- Parity with TFC: all ores just need a copper pickaxe.
+- Remove integration with Spectrum's removed sludge fluid.
+- All mossy bricks now have the cutout render type. (they look normal now)
+- More things have been moved to data generation: placed feature tags, biome modifier, etc.
+- Caupona's water bowl has been properly removed.
+- Code formatting and clean up.
 
 # On Ancient Ground 2.0: Alpha 4
 
