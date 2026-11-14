@@ -110,6 +110,7 @@ try {
             "farmersdelight:cabbage_seeds": "tfc:seeds/cabbage",
             "spectrum:amaranth_grains": "modpack:seeds/amaranth",
             "spectrum:glistering_melon_seeds": "modpack:seeds/glistering_melon",
+            "spectrum:weeping_gala_sprig": "modpack:wood/sapling/weeping_gala",
         }
 
         global.DYE_COLOURS.forEach(colour => {

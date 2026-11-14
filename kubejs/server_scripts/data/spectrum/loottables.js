@@ -6,6 +6,10 @@ try {
     console.info("Loot Tables loaded")
 
     LootJS.modifiers((event) => {
+        
+        function modifier(toReplace, newItem) {
+            event.addTableModifier(LootType.BLOCK).replaceLoot(toReplace, newItem, true)
+        }
 
         global.DYE_COLOURS.forEach(colour => {
             event.addBlockModifier(`${mod_id}:wood/sapling/${colour}`).replaceLoot("minecraft:oak_sapling", "tfc:wood/sapling/oak")
@@ -23,6 +27,8 @@ try {
             event.addBlockModifier(`spectrum:${colour}_fence_gate`).replaceLoot("minecraft:oak_fence_gate", "tfc:wood/fence_gate/oak")
             event.addBlockModifier(`spectrum:${colour}_button`).replaceLoot("minecraft:oak_button", "tfc:wood/button/oak")
         })
+        
+        modifier("spectrum:weeping_gala_sprig", "modpack:wood/sapling/weeping_gala")
     })
 
 } catch (e) {
