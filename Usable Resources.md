@@ -2,9 +2,9 @@
 
 Premise:
 
-A scary part of adding something is that it needs stuff like textures. 
-There are some resources already free for us to use within the pack, just need to reference those resources.
-This mostly includes stuff like unused item/block textures (as in not used at all or removed in the pack)
+A part of adding something is that it needs stuff like textures. 
+There are some resources already free for us to use within the pack as they are already loaded, just need to reference those resources.
+This mostly includes stuff like unused item/block textures (not used at all or removed in the pack)
 
 Stuff like this should be catalogued here for possible future use. :)
 
@@ -19,12 +19,10 @@ Stuff like this should be catalogued here for possible future use. :)
 - basalt
 - dirt
 - mud
-- 
-
 
 # Vexxed Visuals.
 
-Most of these are left overs, liable to change.
+Most of these are left overs, liable to change probably.
 
 - Kaolinite ore texture (item)
 - "Opal2" (already in use to replace topaz, old topaz textures are now free to use)
@@ -36,11 +34,11 @@ Most of these are left overs, liable to change.
 - squash (block, unsure if its used?)
 - coconut textures (item, base TFC may add coconuts soon, so we shouldn't)
 - shredded_coconut (item)
-- acorn, chestnut, pecans. + chestnut bread and flour (item)
+- acorn, chestnut, pecans, and chestnut bread and flour (item)
 - Blueberry, banana, apple, plum and strawberry bread (item)
 - Raw and cooked apple pie (item)
 - trail_mix
-- mallet textures for every tool metal (item, what could this see?)
+- mallet textures for every tool metal (item, what could this be?)
 
 # Caupona
 
@@ -57,3 +55,7 @@ Most of these are left overs, liable to change.
 - Snail roes
 - Snail bait
 - soot
+
+# Create
+
+- Shadow/light compound
