@@ -9,7 +9,7 @@
 	/**
 	 * Whether cheating in items is enabled.
 	 */
-	cheat-mode: true;
+	cheat-mode: false;
 
 	/**
 	 * How much EMI should use tooltips and popups to show controls and information.
@@ -98,7 +98,7 @@
 	/**
 	 * Which sidebar type to focus when the search is empty.
 	 */
-	empty-search-sidebar-focus: none;
+	empty-search-sidebar-focus: favorites;
 
 	/**
 	 * Whether the EMI config button should be visible.
@@ -187,7 +187,7 @@
 	/**
 	 * Where to position the left sidebar
 	 */
-	left-sidebar-align: right, center;
+	left-sidebar-align: center, center;
 
 	/**
 	 * Whether to render the header buttons and page count for the left sidebar
@@ -197,22 +197,22 @@
 	/**
 	 * Which theme to use for the left sidebar
 	 */
-	left-sidebar-theme: vanilla;
+	left-sidebar-theme: transparent;
 
 	/**
 	 * The pages in the right sidebar
 	 */
-	right-sidebar-pages: index, favorites;
+	right-sidebar-pages: index;
 
 	/**
 	 * The subpanels in the right sidebar
 	 */
-	right-sidebar-subpanels: none;
+	right-sidebar-subpanels: favorites 3;
 
 	/**
 	 * How many columns and rows of ingredients to limit the right sidebar to
 	 */
-	right-sidebar-size: 10, 14;
+	right-sidebar-size: 12, 16;
 
 	/**
 	 * How much space to maintain between the right sidebar and obstructions, in pixels
@@ -222,7 +222,7 @@
 	/**
 	 * Where to position the right sidebar
 	 */
-	right-sidebar-align: left, center;
+	right-sidebar-align: center, center;
 
 	/**
 	 * Whether to render the header buttons and page count for the right sidebar
@@ -232,7 +232,7 @@
 	/**
 	 * Which theme to use for the right sidebar
 	 */
-	right-sidebar-theme: vanilla;
+	right-sidebar-theme: transparent;
 
 	/**
 	 * The pages in the top sidebar
@@ -267,7 +267,7 @@
 	/**
 	 * Which theme to use for the top sidebar
 	 */
-	top-sidebar-theme: transparent;
+	top-sidebar-theme: vanilla;
 
 	/**
 	 * The pages in the bottom sidebar
@@ -430,7 +430,7 @@
 	/**
 	 * Copies the hovered recipe's ID to the clipboard
 	 */
-	copy-recipe-id: "key.keyboard.unknown";
+	copy-recipe-id: "ctrl key.mouse.4";
 
 	/**
 	 * In edit mode, hide the hovered stack
