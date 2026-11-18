@@ -4,7 +4,7 @@
         "tag": "c:glass_blocks/cheap"
     },
     "second_input": {
-        "item": "tfc:metal/double_sheet/copper"
+        "item": "tfc:metal/sheet/copper"
     },
     "tier": 1,
     "result": {

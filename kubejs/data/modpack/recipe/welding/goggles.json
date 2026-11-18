@@ -1,7 +1,7 @@
 {
     "type": "tfc:welding",
     "first_input": {
-        "item": "tfc:metal/rod/gold"
+        "item": "tfc:lens"
     },
     "second_input": {
         "item": "tfc:lens"

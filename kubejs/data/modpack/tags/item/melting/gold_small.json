@@ -6,7 +6,6 @@
         "quark:gold_button",
         "createaddition:gold_wire",
         "createaddition:gold_spool",
-        "create:steam_whistle",
-        "create:goggles"
+        "create:steam_whistle"
     ]
 }
