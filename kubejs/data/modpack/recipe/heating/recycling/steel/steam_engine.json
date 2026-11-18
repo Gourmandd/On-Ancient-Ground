@@ -4,8 +4,8 @@
         "item": "create:steam_engine"
     },
     "result_fluid": {
-        "id": "tfc:metal/copper",
-        "amount": 900
+        "id": "tfc:metal/steel",
+        "amount": 100
     },
-    "temperature": 1080
+    "temperature": 1535
 }

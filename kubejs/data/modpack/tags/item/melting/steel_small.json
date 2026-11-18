@@ -6,6 +6,7 @@
         "create:andesite_ladder",
         "create:andesite_bars",
         "create:andesite_casing",
-        "create:andesite_scaffolding"
+        "create:andesite_scaffolding",
+        "create:steam_engine"
     ]
 }
