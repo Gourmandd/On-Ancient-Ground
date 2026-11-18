@@ -6,7 +6,6 @@ StartupEvents.registry("item", event => {
 
     event.create(`${id}:saw`).displayName("Wrought Iron Sawblade")
     event.create(`${id}:unfired_shaft`).displayName("Unfired Shaft")
-    event.create(`${id}:fired_shaft`).displayName("Fired Shaft")
     event.create(`${id}:oscillating_mechanism`).displayName("Oscillating Mechanism")
     event.create(`${id}:torque_mechanism`).displayName("Torque Mechanism")
 

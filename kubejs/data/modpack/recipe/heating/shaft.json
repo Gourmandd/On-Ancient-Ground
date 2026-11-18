@@ -4,7 +4,7 @@
         "item": "modpack:unfired_shaft"
     },
     "result_item": {
-        "id": "modpack:fired_shaft"
+        "id": "create:shaft"
     },
-    "temperature": 520
+    "temperature": 1399
 }
