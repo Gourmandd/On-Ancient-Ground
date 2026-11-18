@@ -70,6 +70,7 @@
         "exposure:interplanar_projector",
         "tfc:calcite",
         "#spectrum:bedrock_equipment",
-        "#spectrum:bedrock_armor"
+        "#spectrum:bedrock_armor",
+        "caupona:fresh_wolfberry_leaves"
     ]
 }

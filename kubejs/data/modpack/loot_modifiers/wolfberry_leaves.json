@@ -6,5 +6,5 @@
       "loot_table_id": "modpack:blocks/plant/wolfberry_leaves"
     }
   ],
-  "table": "modpack:blocks/wolfberry_leaves"
+  "table": "firmalife:blocks/fruit_leaves"
 }
