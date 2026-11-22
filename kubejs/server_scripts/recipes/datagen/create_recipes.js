@@ -39,7 +39,7 @@ const createModRecipes = function(){
                 return {
                     type: "create:cutting",
                     ingredients: getIOArray(input),
-                    processing_time: this.processing_time,
+                    processingTime: this.processing_time,
                     results: getIOArray(output),
                 }
             }
@@ -340,7 +340,7 @@ const createModRecipes = function(){
                 return {
                     type: "create:milling",
                     ingredients: singularObjectArray(getIOArray(input)),
-                    processing_time: this.processing_time,
+                    processingTime: this.processing_time,
                     results: getIOArray(output),
                 }
             }
@@ -385,7 +385,7 @@ const createModRecipes = function(){
                 return {
                     type: "create:crushing",
                     ingredients: singularObjectArray(getIOArray(input)),
-                    processing_time: this.processing_time,
+                    processingTime: this.processing_time,
                     results: getIOArray(output),
                 }
             }
